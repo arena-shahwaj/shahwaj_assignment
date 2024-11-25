@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahwaj's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="navbar">
+      <div class="logo">
+        <a href="#home">C'X.</a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="contactbtn">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--Header Content-->
+    <section id="home">
+      <div class="ath_container" onmousemove="move(event)">
+        <div class="circle"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="square"></div>
+        <div class="square2"></div>
+      </div>
+
+      <div class="profile-container">
+        <div class="profile-content">
+          <p class="profile-subtitle">WELCOME IN C'X.</p>
+          <br />
+          <h1 class="profile-name">I AM SHAHWAJ</h1>
+          <br />
+          <h1 class="profile-role">BACKEND DEVELOPER</h1>
+        </div>
+        <div class="profile-image-container">
+          <img src="img/header.jpg" alt="header-img" />
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <div class="social-icon">
+          <a href="https://linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://github.com" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://twitter.com" target="_blank">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--About me-->
+
+    <div class="about-me" id="about">
+      <div class="box">
+        <div class="image-section">
+          <img class="img-desk" src="img/bio.jpg" alt="Profile Image" />
+          <img class="img-mob" src="img/bio.jpg" alt="Profile Image" />
+        </div>
+        <div class="info-section">
+          <h2>About Me</h2>
+          <p>
+            I am a Node.js Backend Developer specializing in crafting
+            high-performance, scalable server-side applications. With expertise
+            in APIs, databases, and microservices, I deliver solutions that
+            power seamless user experiences. Passionate about clean code and
+            innovation, I thrive on building systems that drive impactful
+            results.
+          </p>
+          <div class="details">
+            <div class="detail-item"><strong>Name :</strong> Shahwaj Khan</div>
+            <div class="detail-item">
+              <strong>Phone no:</strong> +91 731 981 2807
+            </div>
+            <div class="detail-item"><strong>Education :</strong> BCA</div>
+            <div class="detail-item"><strong>Experience :</strong> 0 Days</div>
+            <div class="detail-item">
+              <strong>Address :</strong> Delhi, India
+            </div>
+            <div class="detail-item">
+              <strong>Email :</strong> shahwaj1221@gmail.com
+            </div>
+          </div>
+          <button class="contact-btn">Hire Me</button>
+        </div>
+      </div>
+    </div>
+
+    <!--skill section-->
+    <div class="skill-section-wrapper" id="skills">
+      <section class="mh-skills" id="mh-skills">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center">Technical Skills</h2>
+
+            <div class="col-12 col-md-6 technical-skills">
+              <div class="each-skills">
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"
+                        ><i class="fa-brands fa-js"></i>JavaScript</span
+                      >
+                      <span class="percentage-num">82%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="82%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"
+                        ><i class="fa-brands fa-node-js"></i> Node.js</span
+                      >
+                      <span class="percentage-num">88%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="88%"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"
+                        ><i class="fa-solid fa-database"></i>Mongodb</span
+                      >
+                      <span class="percentage-num">95%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="95%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"><i class="fab fa-java"></i>Java</span>
+                      <span class="percentage-num">50%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="50%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"
+                        ><i class="fab fa-css3-alt"></i>CSS</span
+                      >
+                      <span class="percentage-num">95%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="95%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 technical-skills">
+              <div class="each-skills">
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"><i class="fab fa-html5"></i>HTML</span>
+                      <span class="percentage-num">100%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="100%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"
+                        ><i class="fab fa-angular"></i>Angular</span
+                      >
+                      <span class="percentage-num">40%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="40%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"
+                        ><i class="fab fa-react"></i>React</span
+                      >
+                      <span class="percentage-num">80%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="80%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidatos">
+                  <div class="parcial">
+                    <div class="info">
+                      <span class="nome"><i class="fab fa-php"></i>PHP</span>
+                      <span class="percentage-num">45%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="percentagem" data-width="45%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--Service section-->
+
+    <section class="services-section" id="services">
+      <h2>My Services</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-icon"><i class="fas fa-server"></i></div>
+          <div class="service-title">Backend Development</div>
+          <p class="service-description">
+            Building scalable server-side applications with robust APIs and
+            database integration.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="service-title">Web Design</div>
+          <p class="service-description">
+            Creating visually appealing and user-friendly web designs tailored
+            to client needs.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="service-title">Freelancing Services</div>
+          <p class="service-description">
+            Providing reliable and efficient freelance services for diverse web
+            projects.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon"><i class="fas fa-code"></i></div>
+          <div class="service-title">Custom Web Applications</div>
+          <p class="service-description">
+            Building custom web applications tailored to business requirements.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon"><i class="fas fa-database"></i></div>
+          <div class="service-title">Database Management</div>
+          <p class="service-description">
+            Designing and managing efficient, secure, and scalable databases.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon"><i class="fas fa-cloud"></i></div>
+          <div class="service-title">Cloud Integration</div>
+          <p class="service-description">
+            Integrating cloud services to enhance scalability and performance.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Project section-->
+
+    <div class="portfolio" id="projects">
+      <h2>My Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="img/vortex.jpg" alt="project-1" />
+          <h3>Vortex | Watch</h3>
+          <p>
+            I have created this watch website using HTML, CSS, and JavaScript to
+            provide users with an interactive and visually appealing experience.
+            Through these technologies, I’ve ensured that the website not only
+            looks stunning but also offers smooth functionality and a
+            user-friendly interface.
+          </p>
+        </div>
+        <div class="portfolio-item">
+          <img src="img/shophub.jpg" alt="project-2" />
+          <h3>Shophub | Clothes</h3>
+          <p>
+            I have created this online clothing store using HTML, CSS, and
+            JavaScript to offer an engaging and seamless shopping experience. By
+            leveraging HTML for a well-structured layout, CSS for a stylish and
+            modern design, and JavaScript for interactive features.
+          </p>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://github.com/arena-shahwaj/indoor-plantation-ecom"
+            ><img src="img/livingreen.png" alt="project-3" />
+          </a>
+          <h3>Livingreen | Plantation</h3>
+          <p>
+            I’ve built a website that allows customers to easily browse and
+            purchase a variety of plants, from indoor greenery to outdoor
+            blooms. The site is designed with simplicity and ease of use in
+            mind, ensuring that visitors can find the perfect plant for their
+            home.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Section-->
+
+    <div class="form-container" id="contact">
+      <h2>GET IN TOUCH!</h2>
+      <form>
+        <div class="form-group">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Name" required />
+        </div>
+        <div class="form-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="Email" required />
+        </div>
+        <div class="form-group">
+          <i class="fas fa-phone"></i>
+          <input type="tel" placeholder="Phone" required />
+        </div>
+        <div class="form-group">
+          <i class="fas fa-comment-alt"></i>
+          <textarea
+            placeholder="Tell us how we can help?"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          Send <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
